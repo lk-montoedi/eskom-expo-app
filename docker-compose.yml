@@ -1,0 +1,41 @@
+services:
+  team37-api:
+    build: ./team37-api
+    container_name: team37-api
+    ports:
+      - "3001:3001"
+    env_file:
+      - ./team37-api/.env
+    networks:
+      - expo-full-stack-network
+
+  team37-frontend:
+    build:
+      context: ./team37
+    container_name: team37-frontend
+    ports:
+      - "8080:80"
+    depends_on:
+      - team37-api
+    networks:
+      - expo-full-stack-network
+
+  team37-mobile:
+    build: ./team37-mobile
+    container_name: team37-mobile
+    ports:
+      - "8081:8081"
+      - "19000:19000"
+      - "19001:19001"
+      - "19002:19002"
+    env_file:
+      - ./team37-mobile/.env
+    volumes:
+      - ./team37-mobile:/app
+      - /app/node_modules
+    networks:
+      - expo-full-stack-network
+
+networks:
+  expo-full-stack-network:
+    driver: bridge
