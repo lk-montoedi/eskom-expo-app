@@ -93,3 +93,48 @@ The mobile app, built with React Native and Expo, is a specialized tool designed
 *   **Code Formatting:** The entire project uses Prettier to maintain a consistent code style.
 *   **Linting:** The mobile application uses ESLint to enforce code quality and catch potential errors.
 *   **Modular Structure:** Each of the three parts of the project is self-contained in its own directory with its own dependencies, promoting a clean separation of concerns.
+
+## 5. Screenshots
+
+### 5.1. Admin Dashboard
+![Admin Dashboard](screenshots/1.png)
+
+### 5.2. Events Management
+![Events Management](screenshots/2.png)
+
+### 5.3. Judge Projects Allocation
+![Judge Projects Allocation](screenshots/3.png)
+
+### 5.4. Projects Management
+![Projects Management](screenshots/4.png)
+
+### 5.5. Judge Login
+![Judge Login](screenshots/5.png)
+
+### 5.6. Judge Event Attendence
+![Judge Event Attendence](screenshots/6.png)
+
+### 5.7. Marksheet Assignement
+![Marksheet Assignement](screenshots/7.png)
+
+### 5.8. Marksheet Assignement
+![Marksheet Assignement](screenshots/8.png)
+
+### 5.9. Project Marking
+![Project Marking](screenshots/9.png)
+
+### 5.10. Marking Complete
+![Marking Complete](screenshots/10.png)
+
+### 5.11. Mark Conflicts Handling
+![Mark Conflicts Handling](screenshots/11.png)
+
+### 5.12. Co-Judge Tracking
+![Co-Judge Tracking](screenshots/12.png)
+
+### 5.13. Agreed Mark
+![Agreed Mark](screenshots/13.png)
+
+### 5.14. Co-Judge Rating
+![Co-Judge Rating](screenshots/14.png)
+
