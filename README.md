@@ -1,4 +1,4 @@
-# In-Depth Project Analysis: Expo Full-Stack Platform
+# Eskom Expo Platform
 
 ## 1. High-Level Project Narrative
 
