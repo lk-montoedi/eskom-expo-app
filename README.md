@@ -1,5 +1,9 @@
 # Eskom Expo Platform
 
+## Introduction
+
+The Eskom Expo Hub was developed to solve the inefficiencies of the traditional Eskom Expo judging and event management process. The existing system relied heavily on paper-based scoring, manual project evaluations, and inconsistent mark reconciliation — leading to delays, human error, and limited transparency. Judges faced high workloads, while convenors struggled to manage multiple stages of the competition across districts and regions. Eskom Expo Hub was designed to digitize and streamline the entire process — from project submission and judging to event coordination and reporting. The platform enables real-time scoring, conflict detection, automated data management, and user-friendly dashboards for learners, teachers, judges, and convenors, ensuring a fair, efficient, and modernized experience for South Africa’s leading science fair.
+
 ## 1. High-Level Project Narrative
 
 This repository contains a comprehensive, full-stack platform designed to manage the entire lifecycle of a science fair or similar academic competition. The system is engineered to serve three distinct user groups: administrators (who oversee the event), participants (learners and teachers), and judges (who evaluate the projects).
